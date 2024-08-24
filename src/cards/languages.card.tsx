@@ -7,10 +7,9 @@ export const langCard = [
         ctaLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         content: () => {
             return (
-                <ul>
-                    <li>Experience: [X years/months]</li>
-                    <li>Knowledge Level: [Beginner/Intermediate/Advanced]</li>
-                </ul>
+                <p>
+                    I have been working with JavaScript for 2 years now. I have also worked on many projects using ReactJS and NextJS. I have explored many libraries and frameworks of JavaScript.
+                </p>
             );
         },
     },
@@ -22,10 +21,10 @@ export const langCard = [
         ctaLink: "https://www.typescriptlang.org/",
         content: () => {
             return (
-                <ul>
-                    <li>Experience: [X years/months]</li>
-                    <li>Knowledge Level: [Beginner/Intermediate/Advanced]</li>
-                </ul>
+                <p>
+                    I have been working with TypeScript for 1 years now. I have made some projects using TypeScript. All my recent projects are made using TypeScript and NextJS.
+
+                </p>
             );
         },
     },
@@ -37,10 +36,9 @@ export const langCard = [
         ctaLink: "https://www.python.org/",
         content: () => {
             return (
-                <ul>
-                    <li>Experience: [X years/months]</li>
-                    <li>Knowledge Level: [Beginner/Intermediate/Advanced]</li>
-                </ul>
+                <p>
+                    I have been working with Python for 2 years now. I have made some Machine learning projects using Python.
+                </p>
             );
         },
     },
@@ -52,10 +50,10 @@ export const langCard = [
         ctaLink: "https://isocpp.org/",
         content: () => {
             return (
-                <ul>
-                    <li>Experience: [X years/months]</li>
-                    <li>Knowledge Level: [Beginner/Intermediate/Advanced]</li>
-                </ul>
+                <p>
+                    I have been working with C++ for 4 years now. A basic implementation of new and delete, and a simple implementation of a linked list. C++ is my go-to Language for DSA.
+
+                </p>
             );
         },
     },
@@ -67,10 +65,9 @@ export const langCard = [
         ctaLink: "https://en.wikipedia.org/wiki/C_(programming_language)",
         content: () => {
             return (
-                <ul>
-                    <li>Experience: [X years/months]</li>
-                    <li>Knowledge Level: [Beginner/Intermediate/Advanced]</li>
-                </ul>
+                <p>
+                    I have been working with C Programming for 3 years now. A basic implementation of malloc and free, and a simple implementation of a linked list. I have also worked on a simple implementation of a shell in C++.
+                </p>
             );
         },
     },

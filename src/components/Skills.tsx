@@ -6,6 +6,7 @@ import { useOutsideClick } from "./hooks/use-outside-click";
 import { Tabs } from "./ui/tabs";
 import SkillPage from "./SkillPage";
 import { langCard } from "@/cards/languages.card";
+import { frameworkCards } from "@/cards/frameworks.card";
 // import { useOutsideClick } from "@/hooks/use-outside-click";
 
 export function Skills() {
@@ -21,7 +22,7 @@ export function Skills() {
             title: "Framework",
             value: "framework",
             content: (
-                <SkillPage heading='Framework' cards={cards} />
+                <SkillPage heading='Framework' cards={frameworkCards} />
             ),
         },
         {
