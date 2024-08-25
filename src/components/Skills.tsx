@@ -10,6 +10,16 @@ import { frameworkCards } from "@/cards/frameworks.card";
 // import { useOutsideClick } from "@/hooks/use-outside-click";
 
 export function Skills() {
+    const [data, setData] = useState([]);
+    useEffect(() => {
+        fetch("https://api.github.com/users/beenow011")
+            .then((Response) => Response.json())
+            .then((data) => {
+                console.log(data);
+                setData(data);
+            });
+    }, []);
+    console.log(data)
     const tabs = [
         {
             title: "Languages",

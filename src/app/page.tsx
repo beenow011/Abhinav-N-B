@@ -1,3 +1,4 @@
+import Achive from "@/components/Achive";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import MiniHeader from "@/components/MiniHeader";
 import { Skills } from "@/components/Skills";
@@ -9,6 +10,7 @@ import Image from "next/image";
 
 
 export default function Home() {
+
   return (
     <div className="w-[calc(100%-4rem)]  rounded-md h-screen  text-white" >
       <MaxWidthWrapper className="md:px-8">
@@ -51,6 +53,9 @@ export default function Home() {
           </div>
           <div className="skills">
             <Skills />
+          </div>
+          <div>
+            <Achive />
           </div>
         </div>
 
