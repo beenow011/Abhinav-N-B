@@ -1,4 +1,5 @@
 import Achive from "@/components/Achive";
+import Buttons from "@/components/Buttons";
 import Cp from "@/components/Cp";
 import ContributionGraph from "@/components/Github";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
@@ -51,28 +52,49 @@ export default function Home() {
             </div>
           </div>
           <div>
+            <Buttons />
+          </div>
+          <div>
 
             <SmallInfo />
           </div>
           <div className="skills">
             <Skills />
           </div>
-          <div className="mt-96 md:mt-12">
+          <div className="mt-[450px] md:mt-24">
 
-            <h1 className="font-bold text-xl md:text-2xl text-green-500 mb-3">
-              Github Contributions
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center relative">
+              <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-20 blur-md rounded-lg"></span>
+              <span className="relative z-10">
+                Github Contributions
+              </span>
+              <div className="absolute inset-0 border-2 border-green-600 rounded-lg -z-10"></div>
+              <div className="absolute inset-0 shadow-lg rounded-lg -z-20"></div>
             </h1>
+
+
             <ContributionGraph />
           </div>
-          <div className="mt-12 ">
-            <h1 className="font-bold text-xl md:text-2xl text-green-500 mb-3">
-              Competitive Programming
+          <div className="mt-24 ">
+
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center relative">
+              <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-20 blur-md rounded-lg"></span>
+              <span className="relative z-10">
+                Competitive Programming
+              </span>
+              <div className="absolute inset-0 border-2 border-green-600 rounded-lg -z-10"></div>
+              <div className="absolute inset-0 shadow-lg rounded-lg -z-20"></div>
             </h1>
             <Cp />
           </div>
-          <div className="mt-96 md:mt-12">
-            <h1 className="font-bold text-xl md:text-2xl text-green-500 mb-3">
-              Projects
+          <div className="mt-96 md:mt-24">
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center relative">
+              <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-20 blur-md rounded-lg"></span>
+              <span className="relative z-10">
+                Projects
+              </span>
+              <div className="absolute inset-0 border-2 border-green-600 rounded-lg -z-10"></div>
+              <div className="absolute inset-0 shadow-lg rounded-lg -z-20"></div>
             </h1>
             <Projects />
           </div>

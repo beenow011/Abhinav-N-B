@@ -56,7 +56,14 @@ export function Skills() {
 
     return (
         <>
-            <h1 className="font-bold">Skills</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center relative">
+                <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-20 blur-md rounded-lg"></span>
+                <span className="relative z-10">
+                    Skills
+                </span>
+                <div className="absolute inset-0 border-2 border-green-600 rounded-lg -z-10"></div>
+                <div className="absolute inset-0 shadow-lg rounded-lg -z-20"></div>
+            </h1>
             <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-2">
                 <Tabs tabs={tabs} />
             </div>
