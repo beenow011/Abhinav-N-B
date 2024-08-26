@@ -64,7 +64,7 @@ export const cloudServicesCard = [
         content: () => {
             return (
                 <p>
-                    I have been working with Cloudinary for 2 years. I have used Cloudinary's powerful media management services to optimize and deliver images and videos across various web applications.
+                    I have been working with Cloudinary for 2 years. I have used Cloudinary&apos;s powerful media management services to optimize and deliver images and videos across various web applications.
                 </p>
             );
         },
