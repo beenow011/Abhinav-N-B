@@ -12,12 +12,9 @@
     display: none;
   }
 
-  .grid {
-    display: grid;
-    gap: 2px;
-}
 
-.grid div {
+
+.squares div {
     border-radius: 3px;
     transition: transform 0.2s;
 }
