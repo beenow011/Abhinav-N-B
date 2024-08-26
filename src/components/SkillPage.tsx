@@ -84,6 +84,9 @@ function SkillPage({ heading, cards }: { heading: string, cards: cardsParams[] }
                                     width={200}
                                     height={200}
                                     src={active.src}
+                                    placeholder="blur"
+                                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII="
+                                    quality={80}
                                     alt={active.title}
                                     className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-top"
                                 />
@@ -148,6 +151,9 @@ function SkillPage({ heading, cards }: { heading: string, cards: cardsParams[] }
                                     height={100}
                                     src={card.src}
                                     alt={card.title}
+                                    quality={60}
+                                    placeholder="blur"
+                                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII="
                                     className="h-14 w-14 rounded-lg object-cover object-top"
                                 />
                             </motion.div>

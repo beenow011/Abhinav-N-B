@@ -1,6 +1,9 @@
 import Achive from "@/components/Achive";
+import Cp from "@/components/Cp";
+import ContributionGraph from "@/components/Github";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import MiniHeader from "@/components/MiniHeader";
+import Projects from "@/components/Projects";
 import { Skills } from "@/components/Skills";
 import { SmallInfo } from "@/components/SmallInfo";
 import { Compare } from "@/components/ui/compare";
@@ -33,7 +36,7 @@ export default function Home() {
                 revealText="Coder|Developer|Editor"
               >
                 <TextRevealCardTitle>
-                  Bytes &amp; Ideas: The Work of Abhinav
+                  <span className="text-orange-500">Bytes </span> &amp; <span className="text-blue-500">Ideas</span>: The Work of Abhinav
                 </TextRevealCardTitle>
                 <TextRevealCardDescription>
                   <MiniHeader />
@@ -54,8 +57,24 @@ export default function Home() {
           <div className="skills">
             <Skills />
           </div>
-          <div>
-            <Achive />
+          <div className="mt-96 md:mt-12">
+
+            <h1 className="font-bold text-xl md:text-2xl text-green-500 mb-3">
+              Github Contributions
+            </h1>
+            <ContributionGraph />
+          </div>
+          <div className="mt-12 ">
+            <h1 className="font-bold text-xl md:text-2xl text-green-500 mb-3">
+              Competitive Programming
+            </h1>
+            <Cp />
+          </div>
+          <div className="mt-96 md:mt-12">
+            <h1 className="font-bold text-xl md:text-2xl text-green-500 mb-3">
+              Projects
+            </h1>
+            <Projects />
           </div>
         </div>
 
