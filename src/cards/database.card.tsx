@@ -22,7 +22,7 @@ export const dbCard = [
         content: () => {
             return (
                 <p>
-                    I have been working with MongoDB for 2 years now. I've used it extensively in projects requiring flexible, schema-less data storage, especially with the MERN stack.
+                    I have been working with MongoDB for 2 years now. I&apos;ve used it extensively in projects requiring flexible, schema-less data storage, especially with the MERN stack.
                 </p>
             );
         },
