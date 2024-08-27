@@ -77,8 +77,8 @@ const ContributionGraph: React.FC = () => {
                         key={`${weekIndex}-${dayIndex}`}
                         style={{
                             backgroundColor: day.color,
-                            width: "15px",
-                            height: "15px",
+                            width: "13px",
+                            height: "13px",
                         }}
                         title={`${day.contributionCount} contributions on ${day.date}`}
                     />
