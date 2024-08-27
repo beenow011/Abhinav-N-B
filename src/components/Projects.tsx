@@ -54,7 +54,7 @@ function Projects() {
                             link={project.link}
                         >
                             <div className='relative '>
-                                <div className="max-w-md">
+                                <div className="max-w-xl xl:max-w-md">
                                     <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                                         {project.title}
                                     </h2>
@@ -67,7 +67,7 @@ function Projects() {
                                     width={500}
                                     height={500}
                                     alt="linear demo image"
-                                    className="absolute  -right-4 lg:-right-[10%] z-[100] -bottom-64 filter md:bottom-2 object-contain rounded-2xl"
+                                    className="absolute hidden xl:block -right-4 lg:-right-[5%] z-[100] filter top-20 object-contain rounded-2xl"
                                 />
                             </div>
                         </WobbleCard>

@@ -87,7 +87,7 @@ export default function Home() {
             </h1>
             <Cp />
           </div>
-          <div className="mt-96 md:mt-24">
+          <div className="mt-96 md:mt-12">
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center relative">
               <span className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-20 blur-md rounded-lg"></span>
               <span className="relative z-10">

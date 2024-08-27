@@ -1,9 +1,8 @@
-'use client'
-import { title } from 'process';
-import React from 'react'
+'use client';
 import DoughnutChart from './Chart';
 
 function Cp() {
+
     const leetcodeStats = [
         {
             title: "Problems Solved",
@@ -46,7 +45,7 @@ function Cp() {
     ];
 
     return (
-        <div className='flex flex-col md:flex-row justify-evenly mt-80 md:mt-4 h-96'>
+        <div className='flex flex-col md:flex-row justify-evenly mt-80 md:mt-10 h-96'>
             <DoughnutChart stats={leetcodeStats} chartTitle="LeetCode Stats" />
             <DoughnutChart stats={gfgStats} chartTitle="GeeksforGeeks Stats" />
         </div>

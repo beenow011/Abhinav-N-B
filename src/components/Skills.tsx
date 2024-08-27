@@ -12,16 +12,16 @@ import { cloudServicesCard } from "@/cards/webservices.card";
 // import { useOutsideClick } from "@/hooks/use-outside-click";
 
 export function Skills() {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        fetch("https://api.github.com/users/beenow011/events")
-            .then((response) => response.json())
-            .then((data) => {
-                console.log(data);
-                setData(data);
-            })
-            .catch((error) => console.error('Error fetching data:', error));
-    }, []);
+    // const [data, setData] = useState([]);
+    // useEffect(() => {
+    //     fetch("https://api.github.com/users/beenow011/events")
+    //         .then((response) => response.json())
+    //         .then((data) => {
+    //             // console.log(data);
+    //             setData(data);
+    //         })
+    //         .catch((error) => console.error('Error fetching data:', error));
+    // }, []);
     const tabs = [
         {
             title: "Languages",
